@@ -4,7 +4,7 @@
   "description": "Learning Mern",
   "main": "index.js",
   "scripts": {
-    "start": "nodeon --exec babel-node server.js",
+    "start": "nodemon --exec babel-node server.js",
     "dev": "webpack -wd"
   },
   "author": "Simon Bao",
