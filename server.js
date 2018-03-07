@@ -6,7 +6,9 @@ const server = express();
 server.set('view engine', 'ejs');
 
 server.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {
+        content: 'Express <em>EJS</em>'
+    });
 })
 
 server.use('/api', apiRouter);
