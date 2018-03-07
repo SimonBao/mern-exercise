@@ -7,7 +7,7 @@ server.set('view engine', 'ejs');
 
 server.get('/', (req, res) => {
     res.render('index', {
-        content: 'Express <em>EJS</em>'
+        content: '<h1>    EJS BODY    </h1>'
     });
 })
 
