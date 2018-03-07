@@ -7,3 +7,6 @@ Learning Mern!
 	* Error: fileSystem.statSync is not a function in 7.1.4
 		*[FIX] ``` "babel-loader": "7.1.4" ```
 		*[FIX] ``` "babel-loader": "7.1.1" ```
+	* Webpack doesn't re-pack after code changes
+		*[FIX] ```  "start": "nodemon --exec babel-node server.js" ```
+		*[FIX] ```  "start": "nodemon --exec babel-node server.js webpack.config.js" ```
