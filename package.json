@@ -4,7 +4,8 @@
   "description": "Learning Mern",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodeon --exec babel-node server.js",
+    "dev": "webpack -wd"
   },
   "author": "Simon Bao",
   "license": "ISC",
